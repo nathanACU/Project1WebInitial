@@ -20,3 +20,53 @@ h1 {
     margin: 0;
 }
 
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+    width: 60%;
+}
+
+.form-box {
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.75em 2em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin: 0;
+}
